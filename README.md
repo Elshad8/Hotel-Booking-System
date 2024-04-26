@@ -4,7 +4,7 @@ This application is a hotel booking system that allows users to book rooms. The 
 
 ## Requirements
 - Node.js >= v20.12.2
-- Angular >= CLI 17.3.5
+- Angular CLI >= 17.3.5
 - npm >= 10.5.0
 - MongoDB (used a remote one for this project)
 
