@@ -37,7 +37,7 @@
               <small class="text-muted">
                 <span *ngFor="let i of [].constructor(getWholeStars(hotel.rating))">&starf;</span>
                 <span *ngFor="let i of [].constructor(getEmptyStars(hotel.rating))">&star;</span>
-                {{hotel.rating}} ({{hotel.ratedBy.length}})
+                {{hotel.rating.toFixed(2)}} ({{hotel.ratedBy.length}})
               </small>
             </p>
             <p class="m-2 card-text" style='overflow: hidden; text-overflow: ellipsis;'>{{hotel.description}}</p>
