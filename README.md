@@ -28,7 +28,7 @@ This application is a hotel booking system that allows users to book rooms. The 
 
 ### Notes
 
-> `./server/cdn` and `./server/.env` paths are not ignored in the repository for demonstration purposes. In a production environment, these secrets be ignored.
+> `./server/cdn` and `./server/.env` paths are not ignored in the repository for demonstration purposes. In a production environment, these secrets should be ignored.
 
 > The application is using a remote MongoDB database. If you want to use a local database, you can change the connection string in the `.env` file. (This will lose the demo data in the remote database.)
 
